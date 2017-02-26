@@ -1,75 +1,61 @@
 body{
+ background-color: #EEEEEE;
+ margin: 0;
+ padding: 0;
 
 }
+
 
 .navbuttons{
   float: right;
-  padding: 1%;
-  margin-top: 1%;
+  position: relative;
+  top: 40%;
   margin-right: 1%;
-  border-left: 3px solid blue;
-  border-right: 3px solid blue;
+
 }
 
-#audiencia{
-  font-family: cursive;
-}
-#audiencia:hover{
+.navbuttons:hover{
   background-color: #E3E3E3;
+}
 
+.banner{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
 }
-#respuesta{
- display: none;
+
+#bannermainpage{
+    background-image: url("https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/15337460_10156706991624619_5215222590071351097_n.png?oh=f58e74e489a39baee3464c8bcd4c0b46&oe=59457678");
 }
+
+.bannertxt{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
 
 #nav{
-  width: 102%;
+  width: 100%;
   height: 10%;
   background-color: #FFFFFF;
-  margin-top: -1%;
-  margin-left: -1%;
-  margin-right: -1%;
-
-
+  position: fixed;
+  border-bottom: 3px solid blue; /* <-------------------------------------- A revisar --------------------------*/
 }
 
-#content{
-  margin-top: 5%;
-}
 #logo{
   max-width: 90%;
-  max-height: 90%;
+  max-height: 75%;
   margin: 1%;
 }
 
-#sep{
-  margin-top: -1%;
-  border: 3px solid blue;
-  border-width: 1px;
-}
 
-#noTecno {
-    width: 100%;
-    height: 40%;
-    background-color: blue;
-    -webkit-animation-name: bluewhite;
-    -webkit-animation-duration: 4s;
-    animation-name: bluewhite;
-    animation-duration: 4s;
-}
-
-
-@-webkit-keyframes bluewhite {
-    from {background-color: blue;}
-    to {background-color: white;}
-}
-
-
-@keyframes bluewhite {
-    from {background-color: blue;}
-    to {background-color: white;}
-}
 </style>
 </head>
 <body>
