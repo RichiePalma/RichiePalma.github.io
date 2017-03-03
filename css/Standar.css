@@ -1,3 +1,4 @@
+
 body{
  background-color: #EEEEEE;
  margin: 0;
@@ -26,9 +27,6 @@ body{
 
 }
 
-#bannermainpage{
-    background-image: url("https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/15337460_10156706991624619_5215222590071351097_n.png?oh=f58e74e489a39baee3464c8bcd4c0b46&oe=59457678");
-}
 
 .bannertxt{
   width: 100%;
@@ -37,6 +35,39 @@ body{
   top: 50%;
   text-align: center;
   color: #FFFFFF;
+
+}
+
+.content{
+  margin: 5%;
+  padding: 1%;
+  height: auto;
+  display: inline-block;
+  width: 87.5%
+}
+
+.cuadrosIzquierdos{
+  border: 1px solid green;
+  margin-left: 5%;
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.cuadrosDerechos{
+  border: 1px solid blue;
+  margin-right: 5%;
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+
+.imagenMediana{
+  margin-top: 5%;
+  margin-left:10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 50%
 
 }
 
@@ -53,6 +84,10 @@ body{
   max-width: 90%;
   max-height: 75%;
   margin: 1%;
+}
+
+#bannermainpage{
+    background-image: url("https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/15337460_10156706991624619_5215222590071351097_n.png?oh=f58e74e489a39baee3464c8bcd4c0b46&oe=59457678");
 }
 
 
