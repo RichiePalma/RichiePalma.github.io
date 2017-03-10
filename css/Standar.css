@@ -47,7 +47,6 @@ body{
 }
 
 .cuadrosIzquierdos{
-  border: 1px solid green;
   margin-left: 5%;
   float: left;
   width: 40%;
@@ -55,7 +54,6 @@ body{
 }
 
 .cuadrosDerechos{
-  border: 1px solid blue;
   margin-right: 5%;
   float: right;
   width: 40%;
