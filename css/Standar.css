@@ -5,6 +5,9 @@ body{
  padding: 0;
 
 }
+center{
+  margin-bottom: -3%;
+}
 
 
 .navbuttons{
@@ -19,6 +22,9 @@ body{
   background-color: #E3E3E3;
 }
 
+.interactive:hover{
+  cursor: pointer;
+}
 .banner{
   width: 100%;
   height: 100%;
@@ -39,7 +45,9 @@ body{
 }
 
 .content{
-  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
   padding: 1%;
   height: auto;
   display: inline-block;
@@ -86,4 +94,12 @@ body{
 
 #bannermainpage{
     background-image: url("https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/15337460_10156706991624619_5215222590071351097_n.png?oh=f58e74e489a39baee3464c8bcd4c0b46&oe=59457678");
+}
+
+#links{
+  background-color: #FFFFFF;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+  border: 3px solid blue;
 }
