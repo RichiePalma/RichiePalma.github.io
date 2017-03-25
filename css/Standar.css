@@ -83,6 +83,7 @@ center{
   height: 10%;
   background-color: #FFFFFF;
   position: fixed;
+  z-index: 100;
   border-bottom: 3px solid blue; /* <-------------------------------------- A revisar --------------------------*/
 }
 
