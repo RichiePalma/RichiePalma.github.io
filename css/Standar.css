@@ -5,6 +5,16 @@ body{
  padding: 0;
 
 }
+
+center{
+
+}
+
+hr{
+  border: 1px solid #AAAAFF;
+}
+
+
 .navbuttons{
   float: right;
   position: relative;
