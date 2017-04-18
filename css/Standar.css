@@ -14,9 +14,9 @@ hr{
   border: 1px solid #AAAAFF;
 }
 .descripcion{
-
   vertical-align: top;
   width: 50%;
+  display: inline-block;
 }
 
 
