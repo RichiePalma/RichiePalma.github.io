@@ -13,6 +13,11 @@ center{
 hr{
   border: 1px solid #AAAAFF;
 }
+.descripcion{
+
+  vertical-align: top;
+  width: 50%;
+}
 
 
 .navbuttons{
