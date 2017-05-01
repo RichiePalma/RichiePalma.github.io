@@ -39,7 +39,7 @@ hr{
 }
 .foroDescripcion{
   vertical-align: top;
-  width: 50%;
+  width: 60%;
   height: 15%;
   display: inline-block;
   float: left;
@@ -48,7 +48,7 @@ hr{
 .botonesDescripcion{
   float:left;
   height: 15%;
-  width: 37.5%;
+  width: 27.5%;
   margin-left: 1%;
 
 }
