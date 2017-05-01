@@ -13,8 +13,8 @@ hr{
   border: 1px solid #AAAAFF;
 }
 .avatar{
-  width: 10%;
-  height: 15%;
+  width: 5%;
+  height: 5%;
   float: left;
 }
 .apartado{
@@ -34,7 +34,7 @@ hr{
   vertical-align: top;
   width: 50%;
   height: 50%;
-  display: inline-block;
+
 }
 .foroDescripcion{
   vertical-align: top;
