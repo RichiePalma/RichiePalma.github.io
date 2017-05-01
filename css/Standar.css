@@ -1,4 +1,6 @@
-
+a:visited{
+  color: blue;
+}
 
 body{
  background-color: #EEEEEE;
@@ -7,68 +9,32 @@ body{
 
 }
 
-
-
 hr{
   border: 1px solid #AAAAFF;
 }
-.avatar{
-  width: 10%;
-  height: 15%;
-  float: left;
+
+.allTips{
+  float: right;
+  width: 43%;
+  height: 52%;
+  margin-top: 2%;
+  border: 2px solid blue;
+  padding: 1%;
+  background-color: #FFFFFF;
 }
+
 .apartado{
   padding-left: 2%;
   padding-right: 2%;
   overflow: hidden;
 }
-.panoramic{
-  width: 100%;
-  height: 100%;
 
-}
-.fb-like{
-  vertical-align: bottom;
-}
-.descripcion{
-  vertical-align: top;
-  width: 50%;
-  height: 50%;
-  float: right;
-
-}
-.foroDescripcion{
-  vertical-align: top;
-  width: 60%;
+.avatar{
+  width: 10%;
   height: 15%;
-  display: inline-block;
   float: left;
-  margin-left: 1%;
-}
-.botonesDescripcion{
-  float:left;
-  height: 15%;
-  width: 27.5%;
-  margin-left: 1%;
-
 }
 
-
-.navbuttons{
-  float: right;
-  position: relative;
-  top: 40%;
-  margin-right: 1%;
-
-}
-
-.navbuttons:hover{
-  background-color: #E3E3E3;
-}
-
-.interactive:hover{
-  cursor: pointer;
-}
 .banner{
   width: 100%;
   height: 100%;
@@ -76,7 +42,6 @@ hr{
   background-size: 100% 100%;
 
 }
-
 
 .bannertxt{
   width: 100%;
@@ -86,6 +51,44 @@ hr{
   text-align: center;
   color: #FFFFFF;
 
+}
+
+.bestTips{
+  float: right;
+  width: 43%;
+  height: 20%;
+  border: 2px solid blue;
+  padding: 1%;
+  background-color: #FFFFFF;
+}
+
+.botonesDescripcion{
+  float:left;
+  height: 15%;
+  width: 27.5%;
+  margin-left: 1%;
+
+}
+
+.clickableTip{
+  border: 1px solid black;
+  margin: 1%;
+  margin-bottom: 1.5%
+  height: 15%;
+  padding: 1%;
+}
+
+.clickableTip:hover{
+  background-color: #DDDDDD;
+}
+
+.clickableTipLink{
+  color: black;
+  text-decoration: none;
+}
+
+.clickableTipLink:visited{
+  color: black;
 }
 
 .content{
@@ -99,6 +102,13 @@ hr{
   overflow: hidden;
 }
 
+.cuadrosDerechos{
+  margin-right: 5%;
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+
 .cuadrosIzquierdos{
   margin-left: 5%;
   float: left;
@@ -106,11 +116,44 @@ hr{
   text-align: center;
 }
 
-.cuadrosDerechos{
-  margin-right: 5%;
+
+
+.dailyTips{
+  float: left;
+  width: 50%;
+  height: 80%;
+  border: 2px solid blue;
+  padding: 1%;
+  background-color: #FFFFFF;
+}
+
+.descripcion{
+  vertical-align: top;
+  width: 50%;
+  height: 50%;
   float: right;
-  width: 40%;
-  text-align: center;
+
+}
+
+.fb-like{
+  vertical-align: bottom;
+}
+
+.foroDescripcion{
+  vertical-align: top;
+  width: 60%;
+  height: 15%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+.fullSizehr{
+  width: 100%
+}
+
+.interactive:hover{
+  cursor: pointer;
 }
 
 .imagenMediana{
@@ -119,7 +162,6 @@ hr{
   margin-right: 10%;
   width: 80%;
   height: 50%
-
 }
 
 .importante{
@@ -127,23 +169,26 @@ hr{
   width: 10%;
 }
 
-.fullSizehr{
-  width: 100%
+.navbuttons{
+  float: right;
+  position: relative;
+  top: 40%;
+  margin-right: 1%;
+
 }
 
-#nav{
+.navbuttons:hover{
+  background-color: #E3E3E3;
+}
+
+.panoramic{
   width: 100%;
-  height: 10%;
-  background-color: #FFFFFF;
-  position: fixed;
-  z-index: 100;
-  border-bottom: 3px solid blue; /* <-------------------------------------- A revisar --------------------------*/
+  height: 100%;
+
 }
 
-#logo{
-  max-width: 90%;
-  max-height: 75%;
-  margin: 1%;
+.title{
+  font-size: 20px
 }
 
 #bannermainpage{
@@ -156,4 +201,19 @@ hr{
   margin-right: 5%;
   margin-bottom: 1%;
   border: 3px solid blue;
+}
+
+#logo{
+  max-width: 90%;
+  max-height: 75%;
+  margin: 1%;
+}
+
+#nav{
+  width: 100%;
+  height: 10%;
+  background-color: #FFFFFF;
+  position: fixed;
+  z-index: 100;
+  border-bottom: 3px solid blue; /* <-------------------------------------- A revisar --------------------------*/
 }
