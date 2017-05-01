@@ -21,6 +21,7 @@ hr{
 .descripcion{
   vertical-align: top;
   width: 50%;
+  border: 1px solid black;
   height: 50%;
   display: inline-block;
 }
