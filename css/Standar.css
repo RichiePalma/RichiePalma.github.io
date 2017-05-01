@@ -34,6 +34,7 @@ hr{
   vertical-align: top;
   width: 50%;
   height: 50%;
+  float: right;
 
 }
 .foroDescripcion{
@@ -51,6 +52,7 @@ hr{
   height: 15%;
   width: 37.5%;
   margin-left: 1%;
+
 }
 
 
@@ -96,6 +98,7 @@ hr{
   height: auto;
   display: inline-block;
   width: 87.5%;
+  overflow: hidden;
 }
 
 .cuadrosIzquierdos{
