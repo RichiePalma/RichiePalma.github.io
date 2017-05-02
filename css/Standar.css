@@ -193,6 +193,56 @@ hr{
   width: 10%;
 }
 
+.mainMenu{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.menuText{
+  padding: 2%;
+  text-align: justify;
+  height: 100%;
+  vertical-align: middle;
+  color: white;
+}
+
+.menuText:hover{
+  display: none;
+}
+
+.menuTitle{
+  writing-mode: tb-rl;
+  padding-top: 10%;
+  float: right;
+  font-size: 30px;
+  border-left: 1px solid blue;
+  height: 81%;
+}
+
+.menuImage{
+  float: left;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 100%;
+  width: 92.7%;
+}
+
+.menuImage:hover{
+    filter: brightness(80%);
+}
+
+.menuSection{
+  border: 2px solid blue;
+  border-radius: 20px;
+  width: 41%;
+  height: 40%;
+  float: left;
+  margin-left: 6%;
+  margin-right: 0%;
+  margin-bottom: 5%;
+}
+
 .navbuttons{
   float: right;
   position: relative;
@@ -266,6 +316,34 @@ hr{
   max-width: 90%;
   max-height: 75%;
   margin: 1%;
+}
+
+#menuConsejos{
+  background-image: url("http://1.bp.blogspot.com/-Hx9uDyputZs/ThA5tFadnXI/AAAAAAAAAhI/ybUZTS1iBwE/s1600/Manual+de+supervivencia+escolar+de+Ned.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#menuEventos{
+  background-image: url("https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/16832023_582898695229074_7659648888372428856_n.jpg?oh=053f93e3b3fd32362ecf888041a84653&oe=59710805");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#menuForo{
+  background-image: url("http://www.forospro.com/img/bannerlogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#menuTutoriales{
+  background-image: url("https://s-media-cache-ak0.pinimg.com/236x/fa/3d/b8/fa3db8a95b4f271de228156e167629ff.jpg?noindex=1");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #nav{
